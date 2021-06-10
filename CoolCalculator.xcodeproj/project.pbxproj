@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4EE9F8A72672361900771D5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9F8A62672361900771D5D /* AppDelegate.swift */; };
 		4EE9F8A92672361900771D5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9F8A82672361900771D5D /* SceneDelegate.swift */; };
-		4EE9F8AB2672361900771D5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9F8AA2672361900771D5D /* ViewController.swift */; };
+		4EE9F8AB2672361900771D5D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9F8AA2672361900771D5D /* MainVC.swift */; };
 		4EE9F8AE2672361900771D5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE9F8AC2672361900771D5D /* Main.storyboard */; };
 		4EE9F8B02672361C00771D5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE9F8AF2672361C00771D5D /* Assets.xcassets */; };
 		4EE9F8B32672361C00771D5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE9F8B12672361C00771D5D /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		4EE9F8A32672361900771D5D /* CoolCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE9F8A62672361900771D5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EE9F8A82672361900771D5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4EE9F8AA2672361900771D5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EE9F8AA2672361900771D5D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		4EE9F8AD2672361900771D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EE9F8AF2672361C00771D5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EE9F8B22672361C00771D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,23 @@
 		4EE9F8A52672361900771D5D /* CoolCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				4EE9F8BA267239AB00771D5D /* Controller */,
 				4EE9F8A62672361900771D5D /* AppDelegate.swift */,
 				4EE9F8A82672361900771D5D /* SceneDelegate.swift */,
-				4EE9F8AA2672361900771D5D /* ViewController.swift */,
 				4EE9F8AC2672361900771D5D /* Main.storyboard */,
 				4EE9F8AF2672361C00771D5D /* Assets.xcassets */,
 				4EE9F8B12672361C00771D5D /* LaunchScreen.storyboard */,
 				4EE9F8B42672361C00771D5D /* Info.plist */,
 			);
 			path = CoolCalculator;
+			sourceTree = "<group>";
+		};
+		4EE9F8BA267239AB00771D5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4EE9F8AA2672361900771D5D /* MainVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EE9F8AB2672361900771D5D /* ViewController.swift in Sources */,
+				4EE9F8AB2672361900771D5D /* MainVC.swift in Sources */,
 				4EE9F8A72672361900771D5D /* AppDelegate.swift in Sources */,
 				4EE9F8A92672361900771D5D /* SceneDelegate.swift in Sources */,
 			);
